@@ -1,0 +1,31 @@
+section.founder {
+    background: $offWhite;
+    padding: 140px 0 100px;
+}
+
+.founderContent {
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .founderImg {
+        border: 1px solid blue;
+        width: 25%;
+        @include yellowShadowRight;
+    }
+
+    .founderText {
+        border: 1px solid green;
+        width: 65%;
+
+        h2 {
+            @include JoseBold(2.1rem);
+            letter-spacing: 1px;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+    }
+}

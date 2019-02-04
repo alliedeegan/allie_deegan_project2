@@ -1,0 +1,63 @@
+main.mainBlog {
+    display: flex;
+    justify-content: space-between;
+    background: $offWhite;
+}
+
+section.info {
+    width: 30%;
+    padding-top: 120px;
+}
+
+.infoContent {
+    border: 1px solid red;
+
+    .infoImg {
+        width: calc(100% - 20px);
+    }
+
+    .infoText {
+        background: #fff;
+        color: $black;
+        padding-top: 330px;
+        padding: 330px 20px 30px;
+        margin-top: -306px;
+        width: 75%;
+        float: right;
+
+        h2 {
+            @include JoseBold(1.2rem);
+            text-transform: capitalize;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.infoAbout {
+    border: 1px solid green;
+    margin-bottom: 20px;
+
+    a {
+        font-style: italic;
+        font-weight: 700;
+        color: $darkGreen;
+    }
+}
+
+.infoPosts {
+    border: 1px solid blue;
+
+    ul {
+        list-style: initial;
+        margin-left: 30px;
+        color: $green;
+        font-size: 0.6rem;
+        line-height: 1.5;
+        
+        span {
+            font-size: 1rem;
+            color: $black;
+            padding-left: 10px;  
+        }
+    }
+}

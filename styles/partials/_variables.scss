@@ -1,0 +1,24 @@
+// COLORS
+$black: #2c2c2c;
+$offWhite: #f0efed;
+$yellow: #f8e71c;
+$darkGreen: #074115;
+$green: #0e902d;
+
+
+// MIXINS
+
+@mixin JoseBold($size) {
+    font-size: $size;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+@mixin yellowShadowRight {
+    box-shadow: 30px 30px 0px -10px  $yellow; 
+}
+
+@mixin yellowShadowLeft {
+    box-shadow: -30px 30px 0px -10px  $yellow;
+}
+

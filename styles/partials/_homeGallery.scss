@@ -1,0 +1,15 @@
+section.gallery {
+    padding: 100px 0 100px;
+}
+
+.galleryContent {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .galleryImg {
+        border: 1px solid green;
+        width: 31%;
+    }
+}

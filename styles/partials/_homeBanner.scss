@@ -1,0 +1,18 @@
+.bannerImg {
+    width: 100%;
+    border: 1px solid purple;
+}
+
+@media (max-width: 550px) {
+    .bannerImg {
+        height: 300px;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            position: relative;
+            width: auto;
+            left: -100px;
+        }
+    }
+}

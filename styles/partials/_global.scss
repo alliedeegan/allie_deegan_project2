@@ -1,0 +1,144 @@
+// GLOBAL STYLES
+
+html {
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
+    color: $black;
+}
+
+.wrapper {
+    max-width: 1600px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+input[type=text],
+    input[type=email] {
+        width: 46%;
+        margin: 0;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid $green;
+        padding: 20px 30px;
+    }
+
+    textarea {
+        width: 100%;
+        border: 2px solid $green;
+        background: transparent;
+        padding: 40px 30px;
+        margin: 40px 0;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background: $green;
+        padding: 10px 0;
+        border: 2px solid $green;
+        transition: all 0.5s;
+    }
+
+    input[type=submit]:hover {
+        background: transparent;
+        color: $green;
+    }
+
+
+
+// FONTS
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 8.3rem;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+    border: 1px solid yellowgreen;
+    line-height: 1;
+}
+
+h1 span {
+    color: $yellow;
+    display: block;
+    border: 1px solid purple;
+    line-height: 0.8;
+}
+
+h2 {
+    margin: 0;
+    @include JoseBold(1.6rem);
+    letter-spacing: 1px;
+}
+
+h3 {
+    margin: 0;
+    @include JoseBold(1.2rem);
+    color: $darkGreen;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 550px) {
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+a.button {
+    @include JoseBold(1rem);
+    text-transform: capitalize;
+    background: $green;
+    display: inline-block;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+    border: 3px solid $green;
+    transition: all 0.5s;
+}
+
+@media (max-width: 550px) {
+    a.button {
+        font-size: 0.8rem;
+    }
+}
+
+
+a.button:hover {
+    background: transparent;
+    color: $green;
+}
+
+input, textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+input[type=submit] {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}

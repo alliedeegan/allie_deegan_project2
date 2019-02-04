@@ -1,0 +1,43 @@
+main.mainContact {
+    display: flex;
+    justify-content: space-between;
+    background: $offWhite;
+}
+
+section.contactLinks {
+    width: 27%;
+    margin-left: 10%;
+    padding: 120px 0 160px;
+    border: 1px solid red;
+
+    .socialLinks {
+        
+        i {
+           color: $green; 
+           font-size: 1.4rem;
+           margin-right: 20px;
+           transition: all 0.3s;
+        } 
+
+        i:hover {
+            color: $darkGreen;
+        }
+    }
+
+    .emailLink {
+
+        a {
+            color: $black;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin: 20px 0;
+            display: block;
+        }
+    }
+
+    .addressLink {
+        P {
+            margin: 0 0 5px;
+        }
+    }
+}

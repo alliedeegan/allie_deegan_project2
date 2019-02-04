@@ -1,0 +1,24 @@
+section.contactFormSection {
+    width: 58%;
+    margin-right: 5%;
+    margin-top: -260px;
+    border: 1px solid orange;
+}
+
+.contactForm {
+    width: calc(100% - 20px);
+    padding: 50px;
+    float: right;
+    background: #fff;
+    @include yellowShadowLeft;
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .formTop {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
