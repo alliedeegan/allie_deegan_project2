@@ -13,3 +13,28 @@ section.gallery {
         width: 31%;
     }
 }
+
+@media (max-width: 550px) {
+    section.gallery {
+        padding: 60px 0 40px;
+    }
+
+    .galleryContent {
+        flex-direction: column;
+        align-items: center;
+
+        .galleryImg {
+            width: 60%;
+            margin-bottom: 50px;
+        }
+
+        .galleryImg:nth-of-type(1),
+        .galleryImg:nth-of-type(3) {
+            @include yellowShadowLeft;
+        }
+
+        .galleryImg:nth-of-type(2) {
+            @include yellowShadowRight;
+        }
+    }
+}

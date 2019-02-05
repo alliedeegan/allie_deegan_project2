@@ -29,3 +29,49 @@ section.founder {
         }
     }
 }
+
+@media (max-width: 1000px) {
+    .founderContent {
+        align-items: center;
+
+        .founderImg {
+            width: 30%;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+
+    section.founder {
+        padding: 100px 0 100px;
+    }
+    .founderContent {
+        flex-direction: column;
+
+        .founderImg {
+            width: 40%;
+        }
+
+        .founderText {
+            width: 100%;
+            margin-top: 50px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .founderContent {
+
+        .founderImg {
+            width: 60%;
+        }
+
+        .founderText {
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

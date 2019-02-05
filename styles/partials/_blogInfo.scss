@@ -11,6 +11,7 @@ section.info {
 
 .infoContent {
     border: 1px solid red;
+    overflow: hidden;
 
     .infoImg {
         width: calc(100% - 20px);
@@ -60,4 +61,74 @@ section.info {
             padding-left: 10px;  
         }
     }
+}
+
+@media (max-width: 1100px) {
+    main.mainBlog {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.info {
+        width: 80%;
+        padding: 0;
+        margin-top: 0;
+        order: 2;
+    }
+
+    .infoContent {
+        display: flex;
+        align-items: center;
+        margin: 50px 0;
+
+        .infoImg {
+            width: 50%;
+            margin: 20px;
+        }
+
+        .infoText {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+
+    .infoContent {
+        flex-direction: column;
+        width: 100%;
+
+        .infoImg {
+            width: 60%;
+            @include yellowShadowRight
+        }
+
+        .infoText {
+            width: 100%;
+            margin: -10px 0 0;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+   .infoContent {
+
+        .infoImg {
+            width: 80%;
+        }
+
+        .infoText {
+            
+            h2 {
+                @include JoseBold(1rem);
+                margin-bottom: 10px;
+            }
+
+            li span {
+                font-size: 0.8rem;
+            }
+        }
+    } 
 }

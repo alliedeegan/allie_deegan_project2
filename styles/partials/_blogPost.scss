@@ -81,3 +81,98 @@ section.post {
         }
     }
 }
+
+
+@media (max-width: 1100px) {
+
+    section.post {
+        width: 80%;
+        order: 1
+    }
+
+    .postContent {
+
+        .blogPost {
+            padding: 100px 50px 50px 50px;
+            margin-right: 0px;
+        }
+
+        .comments {
+            border: 1px solid pink;
+            padding: 50px 50px 0 50px;
+            margin-right: 0px; 
+        }
+    }
+
+    .commentItem:nth-of-type(2) {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 800px) {
+    .postContent {
+        .blogPost{
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    .comments {
+        h2 {
+            font-size: 1.5rem
+        }
+    }
+
+    .commentItem {
+        .commentText {
+            h3 {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .postContent {
+        margin-top: -160px;
+
+        .comments {
+            padding: 50px 0 0 0;
+        }
+
+        .blogPost {
+            padding: 60px 0px 50px 5px;
+
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    .comments {
+    
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    .commentItem {
+        flex-direction: column;
+        align-items: center;
+        
+        .commentImg {
+            width: 50%;
+            margin-bottom: 10px;
+
+        }
+
+        .commentText {
+            h3 {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+}

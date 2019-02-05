@@ -22,3 +22,34 @@ section.contactFormSection {
         }
     }
 }
+
+@media (max-width: 1100px) {
+    section.contactFormSection {
+        order:1;
+        width: 80%;
+        margin: -260px 0 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .contactForm {
+        padding: 30px;
+    }
+
+    form {
+
+        .formTop {
+            flex-direction: column;
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    section.contactFormSection {
+        margin: -160px 0 0;
+    }
+}
