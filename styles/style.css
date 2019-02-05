@@ -445,7 +445,8 @@ header.headerFull {
 
 @media (max-width: 700px) {
   header.headerFull {
-    height: 75vh; }
+    height: 75vh;
+    min-height: 400px; }
   .headerMain h1 {
     font-size: 5rem; }
   .headerMain .headerImg {
@@ -453,7 +454,8 @@ header.headerFull {
 
 @media (max-width: 550px) {
   header.headerFull {
-    height: 50vh; }
+    height: 50vh;
+    min-height: 300px; }
   .headerMain h1 {
     font-size: 3rem; } }
 

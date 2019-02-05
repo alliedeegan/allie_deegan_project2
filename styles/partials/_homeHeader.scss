@@ -44,6 +44,7 @@ header.headerFull {
     
     header.headerFull {
         height: 75vh;
+        min-height: 400px;
     }
 
     .headerMain {
@@ -61,6 +62,7 @@ header.headerFull {
 @media (max-width: 550px) {
     header.headerFull {
         height: 50vh;
+        min-height: 300px;
     }
 
     .headerMain {
