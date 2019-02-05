@@ -4,19 +4,16 @@ section.founder {
 }
 
 .founderContent {
-    border: 1px solid purple;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 
     .founderImg {
-        border: 1px solid blue;
         width: 25%;
         @include yellowShadowRight;
     }
 
     .founderText {
-        border: 1px solid green;
         width: 65%;
 
         h2 {

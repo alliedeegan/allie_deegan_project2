@@ -3,7 +3,6 @@ section.post {
 }
 
 .postContent {
-    border: 1px solid purple;
     margin-top: -275px;
 
     .postImg {
@@ -14,9 +13,8 @@ section.post {
 
     .blogPost {
         clear: both;
-        border-top: 2px solid blue;
-        border-left: 5px solid $yellow;
-        border-bottom: 5px solid $yellow;
+        border-left: 5px solid $accent;
+        border-bottom: 5px solid $accent;
         padding: 100px 0 50px 50px;
         margin-right: 150px;
 
@@ -24,7 +22,7 @@ section.post {
             @include JoseBold(2.15rem);
         }
         p.date {
-            color: $darkGreen;
+            color: $darkPrimary;
             font-style: italic;
             margin-top: 5px;
         }
@@ -39,7 +37,6 @@ section.post {
     }
 
     .comments {
-        border: 1px solid pink;
         padding: 50px 0 0 50px;
         margin-right: 150px; 
     }
@@ -48,7 +45,6 @@ section.post {
 .commentItem {
     display: flex;
     justify-content: space-between;
-    border: 1px solid yellowgreen;
 
     .commentImg {
         width: 15%;
@@ -68,7 +64,6 @@ section.post {
 }
 
 .commentForm {
-    border: 1px solider green;
     margin: 80px 0;
 
     form {
@@ -98,7 +93,6 @@ section.post {
         }
 
         .comments {
-            border: 1px solid pink;
             padding: 50px 50px 0 50px;
             margin-right: 0px; 
         }

@@ -10,7 +10,6 @@ section.info {
 }
 
 .infoContent {
-    border: 1px solid red;
     overflow: hidden;
 
     .infoImg {
@@ -35,23 +34,21 @@ section.info {
 }
 
 .infoAbout {
-    border: 1px solid green;
     margin-bottom: 20px;
 
     a {
         font-style: italic;
         font-weight: 700;
-        color: $darkGreen;
+        color: $darkPrimary;
     }
 }
 
 .infoPosts {
-    border: 1px solid blue;
 
     ul {
         list-style: initial;
         margin-left: 30px;
-        color: $green;
+        color: $primary;
         font-size: 0.6rem;
         line-height: 1.5;
         

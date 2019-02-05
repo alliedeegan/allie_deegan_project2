@@ -8,19 +8,18 @@ section.contactLinks {
     width: 27%;
     margin-left: 10%;
     padding: 120px 0 160px;
-    border: 1px solid red;
 
     .socialLinks {
         
         i {
-           color: $green; 
+           color: $primary; 
            font-size: 1.4rem;
            margin-right: 20px;
            transition: all 0.3s;
         } 
 
         i:hover {
-            color: $darkGreen;
+            color: $darkPrimary;
         }
     }
 

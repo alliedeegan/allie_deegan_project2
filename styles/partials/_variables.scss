@@ -1,9 +1,9 @@
 // COLORS
 $black: #2c2c2c;
 $offWhite: #f0efed;
-$yellow: #f8e71c;
-$darkGreen: #074115;
-$green: #0e902d;
+$accent: #f8e71c;
+$darkPrimary: #074115;
+$primary: #0e902d;
 
 
 // MIXINS
@@ -15,10 +15,10 @@ $green: #0e902d;
 }
 
 @mixin yellowShadowRight {
-    box-shadow: 30px 30px 0px -10px  $yellow; 
+    box-shadow: 30px 30px 0px -10px  $accent; 
 }
 
 @mixin yellowShadowLeft {
-    box-shadow: -30px 30px 0px -10px  $yellow;
+    box-shadow: -30px 30px 0px -10px  $accent;
 }
 

@@ -3,7 +3,6 @@ header.headerContact {
     background: url(../assets/contact-header-1.jpg);
     background-size: cover;
     background-attachment: center;
-    border: 1px solid orange;
 
     .headerMain {
         display: flex;
@@ -13,7 +12,7 @@ header.headerContact {
         h1 {
         font-size: 80px;
         margin-left: 10%;
-        color: $yellow;
+        color: $accent;
         font-weight: 700;
         }
 

@@ -3,13 +3,11 @@ section.gallery {
 }
 
 .galleryContent {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
     .galleryImg {
-        border: 1px solid green;
         width: 31%;
     }
 }

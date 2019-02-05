@@ -3,7 +3,6 @@ header.headerBlog {
     background: url(../assets/blog-header-1.jpg);
     background-size: cover;
     background-attachment: center;
-    border: 1px solid orange;
 
     .headerMain {
         display: flex;
@@ -14,7 +13,7 @@ header.headerBlog {
         font-size: 80px;
         margin-left: 10%;
         margin-bottom: 10%;
-        color: $yellow;
+        color: $accent;
         font-weight: 700;
         }
     }  
