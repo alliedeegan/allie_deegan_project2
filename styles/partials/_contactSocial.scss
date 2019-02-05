@@ -35,6 +35,7 @@ section.contactLinks {
     }
 
     .addressLink {
+
         P {
             margin: 0 0 5px;
         }
@@ -47,8 +48,8 @@ section.contactLinks {
     main.mainContact {
         flex-direction: column;
         align-items: center;
-
     }
+    
     section.contactLinks {
         order: 2;
         width: 80%;

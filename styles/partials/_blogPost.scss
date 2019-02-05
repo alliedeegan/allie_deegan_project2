@@ -82,7 +82,7 @@ section.post {
 
     section.post {
         width: 80%;
-        order: 1
+        order: 1;
     }
 
     .postContent {
@@ -104,8 +104,11 @@ section.post {
 }
 
 @media (max-width: 800px) {
+
     .postContent {
+
         .blogPost{
+
             h2 {
                 font-size: 1.8rem;
             }
@@ -119,7 +122,9 @@ section.post {
     }
 
     .commentItem {
+
         .commentText {
+
             h3 {
                 font-size: 1.1rem;
             }
@@ -128,6 +133,7 @@ section.post {
 }
 
 @media (max-width: 550px) {
+    
     .postContent {
         margin-top: -160px;
 
@@ -159,7 +165,6 @@ section.post {
         .commentImg {
             width: 50%;
             margin-bottom: 10px;
-
         }
 
         .commentText {
@@ -168,5 +173,4 @@ section.post {
             }
         }
     }
-
 }

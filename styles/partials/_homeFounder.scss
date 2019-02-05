@@ -28,6 +28,7 @@ section.founder {
 }
 
 @media (max-width: 1000px) {
+
     .founderContent {
         align-items: center;
 
@@ -42,6 +43,7 @@ section.founder {
     section.founder {
         padding: 100px 0 100px;
     }
+
     .founderContent {
         flex-direction: column;
 
@@ -58,6 +60,7 @@ section.founder {
 }
 
 @media (max-width: 550px) {
+    
     .founderContent {
 
         .founderImg {
