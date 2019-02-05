@@ -1,5 +1,6 @@
 header.headerContact {
     height: 75vh;
+    min-height: 450px;
     background: url(../assets/contact-header-1.jpg);
     background-size: cover;
     background-attachment: center;
@@ -58,6 +59,7 @@ header.headerContact {
 
     header.headerContact {
         height: 50vh;
+        min-height: 350px;
 
         .headerMain {
 

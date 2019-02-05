@@ -1,5 +1,6 @@
 header.headerBlog {
     height: 75vh;
+    min-height: 460px;
     background: url(../assets/blog-header-1.jpg);
     background-size: cover;
     background-attachment: center;
@@ -51,6 +52,7 @@ header.headerBlog {
 
     header.headerBlog {
         height: 50vh;
+        min-height: 350px;
 
         .headerMain {
 
