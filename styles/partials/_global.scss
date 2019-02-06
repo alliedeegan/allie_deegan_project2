@@ -31,15 +31,11 @@ input[type=email] {
     padding: 20px 30px;
 }
 
-textarea {
-    width: 100%;
-    border: 2px solid $primary;
-    background: transparent;
-    padding: 40px 30px;
-    margin: 40px 0;
-}
-
 input[type=submit] {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
     width: 100%;
     background: $primary;
     padding: 10px 0;
@@ -52,6 +48,21 @@ input[type=submit]:hover {
     color: $primary;
 }
 
+input, 
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+textarea {
+    width: 100%;
+    border: 2px solid $primary;
+    background: transparent;
+    padding: 40px 30px;
+    margin: 40px 0;
+}
+
 
 // Accessibility
 
@@ -60,7 +71,7 @@ a.skip-link {
   left: -1000px;
   top: 5px;
   z-index: 999;
-  background:$accent;
+  background: $accent;
   color: $black;
 }
 
@@ -138,17 +149,4 @@ a.button {
 a.button:hover {
     background: transparent;
     color: $primary;
-}
-
-input, textarea {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-input[type=submit] {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
 }

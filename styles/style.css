@@ -173,14 +173,11 @@ input[type=email] {
   border-bottom: 2px solid #0e902d;
   padding: 20px 30px; }
 
-textarea {
-  width: 100%;
-  border: 2px solid #0e902d;
-  background: transparent;
-  padding: 40px 30px;
-  margin: 40px 0; }
-
 input[type=submit] {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
   width: 100%;
   background: #0e902d;
   padding: 10px 0;
@@ -192,6 +189,19 @@ input[type=submit] {
 input[type=submit]:hover {
   background: transparent;
   color: #0e902d; }
+
+input,
+textarea {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem; }
+
+textarea {
+  width: 100%;
+  border: 2px solid #0e902d;
+  background: transparent;
+  padding: 40px 30px;
+  margin: 40px 0; }
 
 a.skip-link {
   position: absolute;
@@ -266,17 +276,6 @@ a.button {
 a.button:hover {
   background: transparent;
   color: #0e902d; }
-
-input, textarea {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1rem; }
-
-input[type=submit] {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 1px; }
 
 header {
   display: -webkit-box;
